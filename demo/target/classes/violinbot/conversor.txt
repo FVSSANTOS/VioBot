@@ -1,0 +1,6 @@
+try {
+            Converter converter = new Converter();
+            converter.convert(mp3FilePath, wavFilePath2);
+        } catch (JavaLayerException e) {
+            e.printStackTrace();
+        }
